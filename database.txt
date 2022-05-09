@@ -1,0 +1,18 @@
+CREATE TABLE `contact` (
+  `name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `age` int(3) NOT NULL,
+  `date` date NOT NULL,
+  `email` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+ALTER TABLE `contact`
+  ADD PRIMARY KEY (`id`);
+ALTER TABLE `contact`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;COMMIT;
+
+INSERT INTO `contact` (`name`, `age`, `date`, `email`, `id`) VALUES
+('Nguyễn A', 30, '2017-11-15', 'nguyena@gamil.com', 1),
+('Hoàng B', 24, '2017-11-01', 'hoangb@gmail.com', 2),
+('Tèo C', 32, '1998-10-20', 'teoc@gmail.com', 3),
+('Admin 3', 21, '1990-01-05', 'admin@gmail.com', 4),
+('Admin 22', 22, '1989-12-31', 'admin22@gmail.com', 6);
