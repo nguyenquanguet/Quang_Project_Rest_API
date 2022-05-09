@@ -1,0 +1,9 @@
+I use XAMPP to create database MySQL.
+
+
+
+Use extension POSTMAN in chrome to CRUD
+ - Create: POST in http://localhost:8080/api/contact/
+ - Read: GET in http://localhost:8080/api/contact/ or http://localhost:8080/api/contact/{id}
+ - Update: PUT in http://localhost:8080/api/contact/{id}
+ - Delete: DELETE in http://localhost:8080/api/contact/{id}
